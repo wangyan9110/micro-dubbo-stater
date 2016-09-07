@@ -19,7 +19,7 @@ public class DubboAutoConfiguration {
 
     protected Logger logger = LoggerFactory.getLogger(DubboAutoConfiguration.class);
 
-    @Value("${shutdown.latch.domain.name:com.iydsj.sw}")
+    @Value("${shutdown.latch.domain.name:info.yywang.micro}")
     private String shutdownLatchDomainName;
 
     @Bean
